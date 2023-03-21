@@ -1,0 +1,42 @@
+*{
+    font-size: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.header{
+    min-width: 200px;
+
+}
+.header .logo{
+    color: blue;
+    font-size: 5rem;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 2px ;
+}
+.header .profile{
+    font-size: 5rem;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+.header .menu ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.header .menu ul li{
+    padding: 25px ;
+    font-size: 3rem;
+}
+.header .menu ul li:hover{
+    background-color: beige;
+    cursor: pointer;
+    border-bottom: 2px solid darkgoldenrod;
+    font-weight: 200;
+}
