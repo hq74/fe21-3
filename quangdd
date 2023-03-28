@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thắng Lợi Group</title>
+        <link rel="stylesheet" href="css/base.css" />
+    </head>
+    <body>
+        <div class="header">
+            <img src="images/logo.png" alt="">
+            <div class="menu">
+                <ul>
+                    <li>Dịch vụ</li>
+                    <li>Dự án</li>
+                    <li>Tin tức</li>
+                    <li>Liên hệ</li>
+                    <li>Đánh giá</li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="images/banner.png" alt="" width="100%" height="100%">
+        </div>
+        <div class="cate">
+            <img src="images/van-phong.png" alt="" >
+            <img src="images/biet-thu.png" alt="">
+            <img src="images/can-ho.png" alt="">
+            <img src="images/nha-pho.png" alt="">
+
+        </div>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header {
+    min-width: 70px;
+    min-height: 10px;
+    background-color: white;
+}
+
+.header .menu ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+}
+.header .menu ul li{
+    padding: 10px ;
+    font-size: 2rem;
+    justify-content: space-around;
+}
+.header .menu ul li:hover{
+    background-color: beige;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(221, 180, 75);
+    font-weight: 100;
+}
+.cate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
